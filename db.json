@@ -4,23 +4,79 @@
       "id": 1,
       "ShowTitleName": true,
       "ShowTitleDecription": false,
-      "Creator":"57312044-844f-4df7-83d9-a6957b98eaa1",
-      "Modifier" :"57312044-844f-4df7-83d9-a6957b98eaa1",
+      "CreatorId": "57312044-844f-4df7-83d9-a6957b98eaa1",
+      "ModifierId": "57312044-844f-4df7-83d9-a6957b98eaa1",
+      "CreatorName": "Peter le Grand",
+      "ModifierName": "Peter le Grand",
       "CreatedDate": "2021-01-02",
-      "ModifiedDate" :"2021-01-03",
+      "ModifiedDate": "2021-01-03",
       "titleName": "New Jersey Public School home page",
       "titleDescription": "This is the home page of New Jersey Public School.",
       "Sections": [
         {
           "ShowTitleName": true,
-          "ShowTitleDecription":false,
-          "TitleName" :"Events list"
+          "ShowTitleDecription": false,
+          "TitleName": "Content list",
+          "TitleDescription": "Content list",
+          "SizeX": 5,
+          "SizeY": 5,
+          "DashboardColumn": 0,
+          "DashboardRow": 6,
+          "TypeId": 1,
+          "DataTypeId": 1,
+          "Contents": [
+            {
+              "Title": "Beach cleanup 2021",
+              "Description": "Success of the cleanup of the beach during the long weekend was interesting to",
+              "CreatorId": "e95a3777-268c-4f9c-9af2-cccd48e9cab3",
+              "CreatorName": "Arthur Dent",
+              "CreatedDate": "2021-02-08",
+              "Type": "News content",
+              "Status": "Approved",
+              "SecurityLevel": 8
+            },
+            {
+              "Title": "Vegetable garden",
+              "Description": "Final grade has harvested for the lunch our potatos and mushrooms",
+              "CreatorId": "e95a3777-268c-4f9c-9af2-dddcd48e9cab3",
+              "CreatorName": "Ford Prefect",
+              "CreatedDate": "2020-12-27",
+              "Type": "Announcement",
+              "Status": "Approved",
+              "SecurityLevel": 4
+            }
+          ]
         },
         {
-          "ShowTitleName" :true,
-          "ShowTitleDecription" :false,
-          "TitleName" :"News"
+          "ShowTitleName": true,
+          "ShowTitleDecription": false,
+          "TitleName": "Process list",
+          "TitleDescription": "This is a list of various processes",
+          "SizeX": 4,
+          "SizeY": 6,
+          "DashboardColumn": 0,
+          "DashboardRow": 0,
+          "TypeId": 1,
+          "DataTypeId": 2,
+          "Processes": [
+            {
+              "ProcessType": "To do",
+              "Status": "Open",
+              "Subject": "Discuss with teacher on assignment"
+            },
+            {
+              "ProcessType": "Assignment",
+              "Status": "Assigned",
+              "Subject": "Write an assay on biodiversity"
+            },
+            {
+              "ProcessType": "Class",
+              "Status": "Open",
+              "Subject": "Energy class by subject matter expert"
+            }
+          ]
         }
+
       ]
     }
   ]
