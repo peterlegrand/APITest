@@ -1,0 +1,29 @@
+{
+  "Pages": [
+    {
+      "id": 1,
+      "ShowTitleName" ";true",
+      "ShowTitleDecription" ";false",
+      "Creator" ";\"57312044-844f-4df7-83d9-a6957b98eaa1\"",
+      "Modifier" ";\"57312044-844f-4df7-83d9-a6957b98eaa1\"",
+      "CreatedDate" ";\"2021-01-02\"",
+      "ModifiedDate" ";\"2021-01-03\"",
+      "titleName": "New Jersey Public School home page",
+      "titleDescription": "This is the home page of New Jersey Public School.",
+      "Sections": [
+        {
+          "ShowTitleName" ";true",
+          "ShowTitleDecription" ";false",
+          "TitleName" ";",
+          "Events list"
+        },
+        {
+          "ShowTitleName" ";true",
+          "ShowTitleDecription" ";false",
+          "TitleName" ";",
+          "News"
+        }
+      ]
+    }
+  ]
+}
