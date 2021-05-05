@@ -76,55 +76,59 @@
             }
           ]
         }
-
       ]
     }
   ],
-  "UserMenus":[
-  {
+  "UserMenus": [
+    {
       "Id": 1,
       "Name": "Menu of Arthur",
-      "UserMenuItems":[
-      {
+      "UserMenuItems": [
+        {
           "Id": 1,
           "Name": "personal",
-          "UserMenuSubItems":[
-          {
-            "Id": 1,
-            "Name": "Calendar"
-          },
-          {
-            "Id": 2,
-            "Name": "To do"
-          }
-        ]},
+          "UserMenuSubItems": [
+            {
+              "Id": 1,
+              "Name": "Calendar"
+            },
+            {
+              "Id": 2,
+              "Name": "To do"
+            }
+          ]
+        },
         {
           "Id": 2,
           "Name": "Created",
-          "UserMenuSubItems":[
-          {
-            "Id": 3,
-            "Name": "My content"
-          },
-          {
-            "Id": 4,
-            "Name": "My workflow"
-          }
-        ]}
-      ]},
-  {
+          "UserMenuSubItems": [
+            {
+              "Id": 3,
+              "Name": "My content"
+            },
+            {
+              "Id": 4,
+              "Name": "My workflow"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "Id": 2,
       "Name": "Menu of Ford",
-      "UserMenuItems":[
+      "UserMenuItems": [
         {
           "Id": 3,
           "Name": "personal",
-          "UserMenuSubItems":[
-          {
-            "Id": 5,
-            "Name": "Calendar"
-          }
-      ]}
-]
-}]
+          "UserMenuSubItems": [
+            {
+              "Id": 5,
+              "Name": "Calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
